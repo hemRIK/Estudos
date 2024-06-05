@@ -1,0 +1,251 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #333;
+
+}
+
+.menu-principal {
+    background-color: #00000054;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px
+}
+
+
+.redes-sociais {
+
+    display: inline-block;
+    justify-self: right;
+    align-self: center;
+    margin-right: 15%;
+
+
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+
+
+
+}
+
+.logo {
+    align-self: center;
+    margin-left: 5%;
+}
+
+
+.imgredes {
+    height: 45px;
+    width: 45px;
+
+}
+
+a {
+    color: transparent;
+}
+
+.header-2 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.busca {
+
+    justify-self: right;
+    margin-right: 16%
+}
+
+.busca input {
+
+
+    border: solid #e15f22 1px;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 97%;
+    height: 30px;
+    width: 200px;
+    padding: 8px;
+}
+
+.lupa {
+
+    width: 30px;
+    height: 30px;
+
+    float: right;
+    margin-right: -232px;
+    margin-top: 24px;
+
+
+}
+
+
+.linha {
+
+    height: 0px;
+    margin-top: 0px;
+    border-bottom: thick double #e15f22;
+}
+
+nav {
+
+    background-color: #333;
+    width: 100%;
+    height: 0;
+
+}
+
+nav a {
+
+    margin-left: 3%;
+    margin-top: 7px;
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+
+
+}
+
+nav a:hover {
+
+    color: #e15f22;
+    height: 37px;
+    border-bottom: thick double #ffffff;
+
+}
+
+
+
+.container-slider-principal {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: flex-end;
+ 
+
+}
+
+.content {
+    margin-top: 0.5%;
+  
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+
+    align-self: flex-start;
+   
+
+ 
+
+
+
+
+
+}
+
+
+   
+
+.slider-principal {
+
+    align-self: flex-start;
+    justify-self: center;
+   
+    width: 90%;
+    height: 270px;
+    display: inline-flex;
+    border-radius: 40px;
+
+  
+   overflow: hidden;
+        
+        
+
+}
+
+.content .slider-principal > .imagensslider > .img1
+ img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+.imagensslider {
+  
+    margin-top:0px;
+    display: inline-block;
+
+    transition: .6s;
+    
+   
+
+}
+
+
+.img1{    transition: margin-top 0.5s ease; height: 100%;}
+
+.manual-navigation {
+    margin-top:-30px;
+
+    z-index: 9999999999999;
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+
+    margin-left: 45%;
+    grid-row: 2;
+    gap: 17px;
+
+
+       
+
+}
+
+
+.manual-btn {
+    width: 2px;
+    height: 2px;
+    border: 3px solid #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+ 
+
+
+}
+
+
+.manual-btn:not(:last-child) {}
+
+.manual-btn:hover {
+    background-color: #e15f22;
+
+}
+
+
+
+
+input[type="radio"] {
+    display: none
+}
+
