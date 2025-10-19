@@ -2,7 +2,7 @@
 
 {
 
-    "nome": "Knight killer",
+    "nome": "knight killer",
     "imagem":"img/Produtos/knightkiller.jfif",
     "link":"javascript:void(0)"
 
@@ -12,7 +12,7 @@
 
 {
 
-    "nome": "Rasaka's Fang",
+    "nome": "rasaka's fang",
     "imagem":"img/Produtos/rasakasfang.jfif",
     "link":"javascript:void(0)"
 
@@ -24,7 +24,7 @@
 
 {
 
-    "nome": "Baruka's Dagger",
+    "nome": "baruka's dagger",
     "imagem":"img/Produtos/Barukasdagger.jpg",
     "link":"javascript:void(0)"
 
@@ -32,7 +32,7 @@
 },
 {
 
-    "nome": "Knifey",
+    "nome": "knifey",
     "imagem":"img/Produtos/Knifey .jfif",
     "link":"javascript:void(0)"
 
@@ -40,7 +40,7 @@
 },
 {
 
-    "nome": "Helluva Boss Blitzo Gun",
+    "nome": "helluva boss blitzo gun",
     "imagem":"img/Produtos/blitzo .jpg",
     "link":"javascript:void(0)"
 
@@ -48,7 +48,7 @@
 },
 {
 
-    "nome": "Crash",
+    "nome": "crash",
     "imagem":"img/Produtos/crash.jfif",
     "link":"javascript:void(0)"
 
@@ -64,7 +64,7 @@
 },
 {
 
-    "nome": "Majin Vegeta",
+    "nome": "majin vegeta",
     "imagem":"img/Produtos/majin_vegeta.jpg",
     "link":"javascript:void(0)"
 
@@ -72,7 +72,7 @@
 },
 {
 
-    "nome": "Trofeu",
+    "nome": "trofeu",
     "imagem":"img/Produtos/trofeu.jpg",
     "link":"javascript:void(0)"
 
@@ -80,7 +80,7 @@
 },
 {
 
-    "nome": "Phaton Valorant",
+    "nome": "phaton valorant",
     "imagem":"img/Produtos/pathon.jpg",
     "link":"javascript:void(0)"
 
@@ -88,7 +88,7 @@
 },
 {
 
-    "nome": "Coroa Princesa Peach",
+    "nome": "coroa princesa peach",
     "imagem":"img/Produtos/peach.jpg",
     "link":"javascript:void(0)"
 
@@ -96,76 +96,69 @@
 },
 {
 
-    "nome": "Sublime Valorant",
+    "nome": "sublime valorant",
     "imagem":"img/Produtos/sublime.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
+
 {
 
-    "nome": "tesaaaaaaaaates",
-    "imagem":"img/Produtos/raposa.jpeg",
-    "link":"#"
-
-
-},
-{
-
-    "nome": "overwatch Mei Ling",
+    "nome": "overwatch mei ling",
     "imagem":"img/Produtos/meiover.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 {
 
-    "nome": "Incrível Circo Digital",
+    "nome": "incrível circo digital",
     "imagem":"img/Produtos/digitalcircus.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 {
 
-    "nome": "Capivara Maromba",
+    "nome": "capivara maromba",
     "imagem":"img/Produtos/capivara.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 {
 
-    "nome": "Dock Mi Band",
+    "nome": "dock mi band",
     "imagem":"img/Produtos/dockmiband.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 
 {
 
-    "nome": "Zero Two Tiara",
+    "nome": "zerot two tiara",
     "imagem":"img/Produtos/zerotwo.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 
 {
 
-    "nome": "Ps4 Suporte",
+    "nome": "ps4 suporte",
     "imagem":"img/Produtos/ps4suporte.jpg",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 },
 
 {
 
-    "nome": "Puzzle Yugioh",
+    "nome": "puzzle yugioh",
     "imagem":"img/Produtos/yugioh.jfif",
-    "link":"#"
+    "link":"javascript:void(0)"
 
 
 }

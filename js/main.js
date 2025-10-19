@@ -3,7 +3,7 @@ let produtos = document.querySelector("body > main > div > nav > a:nth-child(2)"
 var quantslides = 6
 var indice  = 0;
 let intervalo = 1500
-
+listaprodutos = []
  
 
 var sliderprincipal = document.querySelector('.slider-principal');
@@ -24,6 +24,8 @@ var banner = document.querySelectorAll('.img1')
 
 //})
 
+ 
+
 
 
 
@@ -33,6 +35,8 @@ function carregarprodutos ()
 fetch('produtos.json')
 .then(response => response.json())   // converte a resposta em json 
 .then(produtos => {
+listaprodutos = produtos
+
 
 
  
@@ -42,6 +46,12 @@ const cprodutos = document.querySelector('#containerprodutos')
 
 
 produtos.map(produto=> {
+  
+ 
+
+
+
+
  const div = document.createElement("div")
   div.classList.add("produtos")
  div.classList.add("containerprodutosclick")
@@ -75,7 +85,7 @@ div.appendChild(titulo)
 div.appendChild(divcomprar)
 divcomprar.appendChild(link)
 
-
+ 
 
 })
 
@@ -86,6 +96,57 @@ divcomprar.appendChild(link)
 
 
 }
+
+
+let buscador = document.querySelector('#buscar') 
+  
+ 
+buscador.addEventListener('keydown',(event)=>  {
+ carregarprodutos()
+conteudobuscador = buscador.value.toLowerCase()
+
+if(event.key ==='Enter')
+{ 
+  
+ 
+  
+
+ 
+ 
+
+
+encontrar = listaprodutos.find(p => p.nome ===conteudobuscador) 
+ 
+if(encontrar) {
+ 
+
+
+ 
+alert(`Temos Este Produto ${encontrar.nome},Procure Na Aba "Produtos"`)
+}
+else{
+   alert("Não Temos Este Produto mas você pode encomendar na aba Encomendas")
+}
+//let conteudobuscador= buscador.value
+//let encontraproduto = produtos.find(produto=> produtos.nome === conteudobuscador);
+
+ 
+ 
+ //  if(encontraproduto){
+
+
+   //alert(`temos o seu produto ${encontraproduto.nome}`)
+                      }
+//else{alert("Não temos essa peça que tal fazer um orçamento? =)")}
+
+
+//}
+
+  })
+
+
+
+
 
 
 produtos.addEventListener("click", function(){
@@ -104,7 +165,7 @@ produtos.addEventListener("click", function(){
           let clicahome = document.querySelector('#home')     
 
           clicahome.addEventListener('click',function() {
-          console.log("clicou no home")
+        
 
           containerprodutos.classList.remove('containerprodutosclick');
           containerprodutos.classList.add('containerprodutos');
@@ -122,7 +183,7 @@ function mudaslide( )
                 
          
   banner[indice].style.marginTop = -alturaslider+"px"
-   console.log("indice atual "+ indice)
+
   indice++
  
  
@@ -135,21 +196,7 @@ if(indice==quantslides ) {
   banner[i].style.marginTop = "0px";
 
   
-}
-
-
-
-}
-      
-
-
-
-   }
-  
-
-
-
-    }
+}} } }
 
 
 
