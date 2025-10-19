@@ -78,6 +78,15 @@ border-radius: 10px;
   
 
  }
+
+
+.produtos:hover{
+    transition: 1s;
+    border-radius: 10%;
+    
+ 
+}
+
 .produtos {
    background: #ffffff;
  
@@ -403,7 +412,7 @@ height: auto;
 
 
 }
-
+ 
 
  .containerprodutosclick
 {
@@ -411,9 +420,13 @@ height: auto;
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
- 
+
 }
+
+ 
     .produtos {
+
+        
    background: #ffffff;
  
     border-radius: 30px;
