@@ -223,7 +223,7 @@ nav a {
 nav a:hover {
 
     color: #e15f22;
-    height: 37px;
+    height: 2.3rem;
     border-bottom: thick double #ffffff;
 
 }
@@ -403,10 +403,61 @@ height: auto;
 
 
 }
-.nav{}
+nav a:hover {
+
+    color: #e15f22;
+    height: 1.3rem;
+    border-bottom: thick double #ffffff;
+
+}
+
+
+ .containerprodutosclick
+{
+ display: inline-block; 
+ display: flex;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+ gap:1rem;
+}
+    .produtos {
+   background: #ffffff;
+ 
+    border-radius: 30px;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    box-sizing:  border-box;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+   text-transform: capitalize;
+    
+ 
+   
+    border-style: solid;
+    border-width: 9px;
+    border-radius: 9px;
+
+   
+    border-color: #f75f00;
+    border-top-width: 0;
+    border-top-style: none;
+    border-right-width: 0;
+    border-right-style: none;
+    border-left-width: 0;
+    border-left-style: none;
+   
+
+
 
 
     
-    
+   
+}
+h1{font-size: 1.4rem; }
+
+
 
 }
