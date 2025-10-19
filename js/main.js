@@ -103,7 +103,7 @@ let buscador = document.querySelector('#buscar')
  
 buscador.addEventListener('keydown',(event)=>  {
  carregarprodutos()
-conteudobuscador = buscador.value.toLowerCase()
+conteudobuscador = buscador.value.toLowerCase().trim()
 
 if(event.key ==='Enter')
 { 
