@@ -2,7 +2,7 @@ let produtos = document.querySelector("body > main > div > nav > a:nth-child(2)"
  
 var quantslides = 6
 var indice  = 0;
-let intervalo = 900
+let intervalo = 1500
 
  
 
