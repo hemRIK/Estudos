@@ -72,20 +72,17 @@ border-radius: 10px;
 
 }
 
- .botaocomprar
- {
 
-  
-
- }
 
 
 .produtos:hover{
     transition: 1s;
     border-radius: 10%;
-    
+      
+
  
 }
+ 
 
 .produtos {
    background: #ffffff;

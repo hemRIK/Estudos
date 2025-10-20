@@ -8,7 +8,7 @@ listaprodutos = []
 
 var sliderprincipal = document.querySelector('.slider-principal');
 var larguraslider = sliderprincipal.offsetWidth;
-var alturaslider = sliderprincipal.offsetHeight;
+var alturaslider = 300;
 
 var banner = document.querySelectorAll('.img1')
 
