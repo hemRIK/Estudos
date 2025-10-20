@@ -11,6 +11,7 @@ var larguraslider = sliderprincipal.offsetWidth;
 var alturaslider = sliderprincipal.offsetHeight;
 
 var banner = document.querySelectorAll('.img1')
+
  
 
 //let mudaborda =  document.querySelectorAll(".botaocomprar a")
@@ -24,8 +25,33 @@ var banner = document.querySelectorAll('.img1')
 
 //})
 
+ function mudarbannercelular (){
+let img1 = document.querySelector("#img1")
+let img2 = document.querySelector("#img2")
+let img3 = document.querySelector("#img3")
  
+ let tamanhodatela =  window.innerWidth
+if(tamanhodatela<600 ){
+    
+ 
+ img1.innerHTML ='<img src="img/slider/mobile/1.jpg" alt="imagem1" >'
+  img2.innerHTML ='<img src="img/slider/mobile/2.jpg" alt="imagem2" >'
+  img3.innerHTML ='<img src="img/slider/mobile/3.jpg" alt="imagem3" >'
+ 
+ 
+  }
+if(tamanhodatela>600)
+   {
+    
 
+ img1.innerHTML ='<img src="img/slider/1.jpg" alt="imagem1" >'
+  img2.innerHTML ='<img src="img/slider/2.jpg" alt="imagem2" >'
+  img3.innerHTML ='<img src="img/slider/3.jpg" alt="imagem3" >'
+
+   }
+ }
+
+window.addEventListener('resize', mudarbannercelular)
 
 
 
@@ -127,20 +153,8 @@ alert(`Temos Este Produto ${encontrar.nome},Procure Na Aba "Produtos"`)
 else{
    alert("Não Temos Este Produto mas você pode encomendar na aba Encomendas")
 }
-//let conteudobuscador= buscador.value
-//let encontraproduto = produtos.find(produto=> produtos.nome === conteudobuscador);
-
+                     }
  
- 
- //  if(encontraproduto){
-
-
-   //alert(`temos o seu produto ${encontraproduto.nome}`)
-                      }
-//else{alert("Não temos essa peça que tal fazer um orçamento? =)")}
-
-
-//}
 
   })
 
